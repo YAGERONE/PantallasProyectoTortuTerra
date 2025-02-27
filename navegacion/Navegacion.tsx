@@ -20,11 +20,11 @@ const Stack = createStackNavigator<RootStackParamList>();
 const AppNavigator: React.FC = () => {
   return (
     <Stack.Navigator initialRouteName="Login">
-      <Stack.Screen name="Login" component={LoginScreen} />
-      <Stack.Screen name="Register" component={RegisterScreen} />
-      <Stack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
-      <Stack.Screen name="Catalog" component={CatalogScreen} />
-      <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen name="Inicio De Sesion" component={LoginScreen} />
+      <Stack.Screen name="Registro" component={RegisterScreen} />
+      <Stack.Screen name="Recuperar Contraseña" component={ForgotPasswordScreen} />
+      <Stack.Screen name="Catalogo" component={CatalogScreen} />
+      <Stack.Screen name="Perfil" component={ProfileScreen} />
     </Stack.Navigator>
   );
 };
